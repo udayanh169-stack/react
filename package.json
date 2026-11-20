@@ -1,0 +1,34 @@
+{
+  "name": "project-react",
+  "version": "1.0.0",
+  "description": "these is react",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/udayanh169-stack/react#readme",
+  "bugs": {
+    "url": "https://github.com/udayanh169-stack/react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udayanh169-stack/react.git"
+  },
+  "license": "ISC",
+  "author": "udayan",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },"browswserlist": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ]
+}

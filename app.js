@@ -1,31 +1,27 @@
-const header=React.createElement('h1',{id:"headers"},'Hello React');
-    //const root=ReactDOM.createRoot(document.getElementById('root'));
-    //root.render(header);
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-const div = 
-const div = React.createElement(
-  'div',
-  { id: "parent" },
+const Header=()=>
+     (
+        <div className='header' >
+            <div className='logo'>
+                <img src='334cbb333311ac916a8d8d01c68ae950.png' alt='logo' />
 
-  React.createElement(
-    'div',
-    { id: "child" },
-    [
-      React.createElement('h6', { id: "child2" }, 'Hello Child2'),
-      React.createElement('h6', { id: "child3" }, 'Hello Child3')
-    ]
-  ),
+            </div>
+            <div className='nav-items'>
+                <ul>
+                     <li>Home</li>
+                    <li>About</li>
+                    <li>Cart</li>
+                    <li>Contact</li>
 
-  React.createElement(
-    'div',
-    { id: "cild" },
-    [
-      React.createElement('h3', { id: "cild2" }, 'Hello Child9'),
-      React.createElement('h3', { id: "cild3" }, 'Hello Child0')
-    ]
-  )
-);
+                </ul>
+            </div>
+        </div>
+    )
 
-    const par=ReactDOM.createRoot(document.getElementById('root'));
-par.render(div);
-console.log(div)
+
+const root=ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<Header />);
+
